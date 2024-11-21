@@ -1,0 +1,13 @@
+{
+  "name": "everybodycodes",
+  "version": "1.0.0",
+  "description": "Everybody Codes Javascript solutions",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^9.15.0"
+  }
+}
