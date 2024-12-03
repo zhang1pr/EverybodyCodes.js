@@ -41,7 +41,7 @@ function solve(input) {
       let w2 = w + nw;
       let nstr = ni + ',' + nj;
 
-      if (map.has(nstr) && map.get(nstr) <= w2) continue;
+      if ((map.get(nstr) ?? Infinity) <= w2) continue;
 
       pq.add([ni, nj, w2]);
       map.set(nstr, w2);
